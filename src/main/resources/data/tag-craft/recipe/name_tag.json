@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "l": "minecraft:leather",
+    "p": "minecraft:paper"
+  },
+  "pattern": [
+    " i ",
+    " l ",
+    " p "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:name_tag"
+  }
+}

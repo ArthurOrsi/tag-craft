@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tag-craft",
+	"version": "1.0.0",
+	"name": "tag craft",
+	"description": "This mod adds a name tag craft to your game",
+	"authors": [
+		"Arthur Orsi"
+	],
+	"contact": {
+		"homepage": "https://x.com/Mods_ArthurOrsi",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tag-craft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.tag.craft.TagCraft"
+		],
+		"fabric-datagen": [
+			"com.tag.craft.TagCraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"tag-craft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
