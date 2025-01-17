@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://x.com/Mods_ArthurOrsi",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ArthurOrsi/tag-craft"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tag-craft/icon.png",
